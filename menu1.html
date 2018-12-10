@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculadora</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="C:/Users/Berenice/Desktop/Proyecto/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="C:/Users/Berenice/Desktop/Proyecto/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>AXA</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Consultar Retiro</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Calculadora para el retiro</h4>
+        </div>
+        <div class="modal-fade" id="myModal" role="dialog">
+          <div id="wrapper">
+        <div id="page-wrapper">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        </div>
+                        <div class="panel-body">
+                           <script type="text/javascript" src="http://beta.mashups.ge.com/embed/57f297a10512c227de20edd3.js?width=800&height=500"></script><div class="responsive-chart" id="57f297a10512c227de20edd3"></div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label>Edad</label>
+                                            <select class="form-control" id="edad_n" required>
+                                                <option>21</option>
+                                                <option>22</option>
+                                                <option>23</option>
+                                                <option>24</option>
+                                                <option>25</option>
+                                                <option>26</option>
+                                                <option>27</option>
+                                                <option>28</option>
+                                                <option>29</option>
+                                                <option>30 </option>
+                                                <option>31</option>
+                                                <option>32</option>
+                                                <option>33</option>
+                                                <option>34</option>
+                                                <option>35 </option>
+                                                <option>36</option>
+                                                <option>37</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Generos</label>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="generoh" value="option1" checked>Hombre
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="generom" value="option2">Mujer
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Prima mensual pesos</label>
+                                            <form>
+                                               ​<div class="form-group" slidecontainer">
+                                                 <input type="range" min="645" max="6169" value="645" data-slider-step="100" class="slider" id="myRange">
+                                                  <p> <br>$ <span id="demo"></span></p>
+                                                </div>
+
+                                                <script>
+                                                var slider = document.getElementById("myRange");
+                                                var output = document.getElementById("demo");
+                                                 output.innerHTML = slider.value;
+
+                                                slider.oninput = function() {
+                                                  output.innerHTML = this.value;
+
+                                                }
+                                                </script>
+                                                </form>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Ingreso mensual pesos</label>
+                                            <input name ="ingresoM" class="form-control" placeholder="Ingresa información" id="ingresoM">
+                                             
+                                          
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Recuperación en 1 exhibición en pesos</label>
+                                            <input class="form-control" placeholder="Ingresa información" id="recuperacion1">
+                                            <!--funcion ingresar informacion-->
+                                        </div>
+                                      </form>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>

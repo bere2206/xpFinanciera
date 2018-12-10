@@ -1,0 +1,21 @@
+[
+    { "type": "header", "version": "4.8.3", "comment": "Export to JSON plugin for PHPMyAdmin" },
+    { "type": "database", "name": "calculadora" },
+    {
+        "type": "table",
+        "name": "calculo_100",
+        "database": "calculadora",
+        "data": [
+            { "edad": "21", "genero": "hombre", "prima_mensual": "645", "ingreso_mensual": "13,935.25", "recuperacion": "3,344,460" },
+            { "id_dato": "2", "edad": "22", "genero": "hombre", "prima_mensual": "654", "ingreso_mensual": "13,399.29", "recuperacion": "3,215,830" },
+            { "id_dato": "3", "edad": "23", "genero": "hombre", "prima_mensual": "667", "ingreso_mensual": "12,883.92", "recuperacion": "3,092,140" },
+            { "id_dato": "4", "edad": "24", "genero": "hombre", "prima_mensual": "669", "ingreso_mensual": "12,388.38", "recuperacion": "2,973,210" },
+            { "id_dato": "5", "edad": "25", "genero": "hombre", "prima_mensual": "735", "ingreso_mensual": "11,839.25", "recuperacion": "2,841,420" },
+            { "id_dato": "6", "edad": "26", "genero": "hombre", "prima_mensual": "774", "ingreso_mensual": "11,383.91", "recuperacion": "2,732,140" },
+            { "id_dato": "7", "edad": "27", "genero": "hombre", "prima_mensual": "815", "ingreso_mensual": "10,946.04", "recuperacion": "2,627,050" },
+            { "id_dato": "8", "edad": "28", "genero": "hombre", "prima_mensual": "847", "ingreso_mensual": "10,525.04", "recuperacion": "2,526,010" },
+            { "id_dato": "9", "edad": "29", "genero": "hombre", "prima_mensual": "911", "ingreso_mensual": "10,120.25", "recuperacion": "2,428,860" },
+            { "edad": "30", "genero": "hombre", "prima_mensual": "965", "ingreso_mensual": "9,731.00", "recuperacion": "2,335,440" },
+        ]
+    }
+]

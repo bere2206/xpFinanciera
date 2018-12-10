@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculadora</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="C:/Users/Berenice/Desktop/Proyecto/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+<body>
+<div class="container">
+  <h2>AXA</h2>
+  <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Retiro con 100 Mil UDIS</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">
+      	 <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form role="form">
+                                        <div class="form-group">
+                                        	<!--<form action="registro.php" method="POST">-->
+                                            <label>Edad</label>
+                                            <select class="form-control" name="edad" id="edad_n" required>
+                                                <option>21</option>
+                                                <option>22</option>
+                                                <option>23</option>
+                                                <option>24</option>
+                                                <option>25</option>
+                                                <option>26</option>
+                                                <option>27</option>
+                                                <option>28</option>
+                                                <option>29</option>
+                                                <option>30</option>
+                                                <option>31</option>
+                                                <option>32</option>
+                                                <option>33</option>
+                                                <option>34</option>
+                                                <option>35</option>
+                                                <option>36</option>
+                                                <option>37</option>
+                                                <option>38</option>
+                                                <option>39</option>
+                                                <option>40</option>
+                                                <option>41</option>
+                                                <option>42</option>
+                                                <option>43</option>
+                                                <option>44</option>
+                                                <option>45</option>
+                                                <option>46</option>
+                                                <option>47</option>
+                                                <option>48</option>
+                                                <option>49</option>
+                                                <option>50</option>
+                                                <option>51</option>
+                                                <option>52</option>
+                                                <option>53</option>
+                                                <option>54</option>
+                                                <option>55</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Generos</label>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="generoh" name="generoh" value="option1" checked>Hombre
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="generom" name="generom" value="option2">Mujer
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Prima mensual pesos</label>
+                                            <input name ="ingresoM" class="form-control" id="primaM">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Ingreso mensual pesos</label>
+                                            <input name ="ingresoM" class="form-control"  id="ingresoM">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Recuperación en 1 exhibición en pesos</label>
+                                            <input name = "recuperacion1" class="form-control"  id="recuperacion1">
+                                        </div>
+                                      </form>
+                    </div>
+                    </div>
+                    </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Retiro $1500</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+      	 <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label>Edad</label>
+                                            <select class="form-control" id="edad_n" required>
+                                                <option>21</option>
+                                                <option>22</option>
+                                                <option>23</option>
+                                                <option>24</option>
+                                                <option>25</option>
+                                                <option>26</option>
+                                                <option>27</option>
+                                                <option>28</option>
+                                                <option>29</option>
+                                                <option>30</option>
+                                                <option>31</option>
+                                                <option>32</option>
+                                                <option>33</option>
+                                                <option>34</option>
+                                                <option>35</option>
+                                                <option>36</option>
+                                                <option>37</option>
+                                                <option>38</option>
+                                                <option>39</option>
+                                                <option>40</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Genero</label>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="generoh" value="option1" checked>Hombre
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="generom" value="option2">Mujer
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Suma Asegurada</label>
+                                            <input name ="sumaA" class="form-control" id="sumaA">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Prima mensual pesos</label>
+                                            <input name ="primaM" class="form-control" id="primaM">
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Ingreso mensual pesos</label>
+                                            <input name ="ingresoM" class="form-control" id="ingresoM">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Recuperación en 1 exhibición en pesos</label>
+                                            <input name = "recuperacion1" class="form-control" id="recuperacion1">
+                                        </div>
+                                      </form>
+                    </div>
+                    </div>
+                    </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Retiro $2000</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+      	  	 <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label>Edad</label>
+                                            <select class="form-control" id="edad_n" required>
+                                                <option>21</option>
+                                                <option>22</option>
+                                                <option>23</option>
+                                                <option>24</option>
+                                                <option>25</option>
+                                                <option>26</option>
+                                                <option>27</option>
+                                                <option>28</option>
+                                                <option>29</option>
+                                                <option>30</option>
+                                                <option>31</option>
+                                                <option>32</option>
+                                                <option>33</option>
+                                                <option>34</option>
+                                                <option>35</option>
+                                                <option>36</option>
+                                                <option>37</option>
+                                                <option>38</option>
+                                                <option>39</option>
+                                                <option>40</option>
+                                                <option>42</option>
+                                                <option>43</option>
+                                                <option>44</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Genero</label>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="generoh" value="option1" checked>Hombre
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="generom" value="option2">Mujer
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Suma Asegurada</label>
+                                            <input name ="sumaA" class="form-control" id="sumaA">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Prima mensual pesos</label>
+                                            <input name ="primaM" class="form-control" id="primaM">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Ingreso mensual pesos</label>
+                                            <input name ="ingresoM" class="form-control" id="ingresoM">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Recuperación en 1 exhibición en pesos</label>
+                                            <input name = "recuperacion1" class="form-control"  id="recuperacion1">
+                                           </div>
+                                      </form>
+                    </div>
+                    </div>
+                    </div>
+      	
+      </div>
+    </div>
+  </div>
+
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Retiro $2500</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+      	  	 <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label>Edad</label>
+                                            <select class="form-control" id="edad_n" required>
+                                                <option>21</option>
+                                                <option>22</option>
+                                                <option>23</option>
+                                                <option>24</option>
+                                                <option>25</option>
+                                                <option>26</option>
+                                                <option>27</option>
+                                                <option>28</option>
+                                                <option>29</option>
+                                                <option>30</option>
+                                                <option>31</option>
+                                                <option>32</option>
+                                                <option>33</option>
+                                                <option>34</option>
+                                                <option>35</option>
+                                                <option>36</option>
+                                                <option>37</option>
+                                                <option>38</option>
+                                                <option>39</option>
+                                                <option>40</option>
+                                                <option>42</option>
+                                                <option>43</option>
+                                                <option>44</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Genero</label>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="generoh" value="option1" checked>Hombre
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="generom" value="option2">Mujer
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Suma Asegurada</label>
+                                            <input name ="sumaA" class="form-control" id="sumaA">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Prima mensual pesos</label>
+                                            <input name ="primaM" class="form-control" id="primaM">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Ingreso mensual pesos</label>
+                                            <input name ="ingresoM" class="form-control" id="ingresoM">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Recuperación en 1 exhibición en pesos</label>
+                                            <input name = "recuperacion1" class="form-control" id="recuperacion1">
+                                        </div>
+                                      </form>
+                    </div>
+                    </div>
+                    </div>
+      	
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
